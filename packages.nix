@@ -4,6 +4,7 @@
     gimp
     dconf
     fzf
+    go
     gnome-tweaks
     git
     python3
