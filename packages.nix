@@ -2,6 +2,8 @@
 {
   environment.systemPackages = with pkgs; [
     gimp
+    dconf
+    pkgs.gnome-tweaks
     git
     python3
     bind
