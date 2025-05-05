@@ -2,6 +2,7 @@
 {
   environment.systemPackages = with pkgs; [
     godot_4
+    mpv
     gimp
     dconf
     fzf
