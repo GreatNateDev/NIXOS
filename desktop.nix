@@ -9,7 +9,10 @@
   };
 
   programs.dconf.enable = true;
-
+  services.openssh = {
+    enable = true;
+    settings.PasswordAuthentication = true;
+  };
   # Run a script at login to apply dconf settings
   systemd.user.services.set-gnome-theme = {
     description = "Set GNOME dark theme using dconf";
