@@ -4,6 +4,7 @@
     godot_4
     mpv
     rpi-imager
+    f3
     gimp
     dconf
     fzf
