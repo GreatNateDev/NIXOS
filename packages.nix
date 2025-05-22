@@ -16,6 +16,7 @@
     github-desktop
     vscodium
     brave
+    impression
     pkg-config
     libpng
     pkgsCross.arm-embedded.stdenv.cc
