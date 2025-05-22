@@ -18,6 +18,7 @@
     brave
     impression
     kdiskmark
+    ventoy-full
     pkg-config
     libpng
     pkgsCross.arm-embedded.stdenv.cc
