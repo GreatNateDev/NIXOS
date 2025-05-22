@@ -17,6 +17,7 @@
     vscodium
     brave
     impression
+    kdiskmark
     pkg-config
     libpng
     pkgsCross.arm-embedded.stdenv.cc
