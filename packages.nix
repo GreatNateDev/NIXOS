@@ -3,6 +3,7 @@
   environment.systemPackages = with pkgs; [
     godot_4
     mpv
+    wine
     rpi-imager
     f3
     gimp
