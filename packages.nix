@@ -12,7 +12,6 @@
     go
     fastfetch
     gnome-tweaks
-    snapshot
     git
     python3
     bind
