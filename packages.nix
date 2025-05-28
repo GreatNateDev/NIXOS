@@ -3,14 +3,16 @@
   environment.systemPackages = with pkgs; [
     godot_4
     mpv
-    wine
+    wineWowPackages.stable
     rpi-imager
     f3
     gimp
     dconf
     fzf
     go
+    fastfetch
     gnome-tweaks
+    snapshot
     git
     python3
     bind
