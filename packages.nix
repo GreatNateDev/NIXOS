@@ -12,6 +12,11 @@
     go
     fastfetch
     gnome-tweaks
+    legcord
+    mgba
+    melonDS
+    ryubing
+    azahar
     git
     python3
     bind
@@ -20,9 +25,9 @@
     brave
     impression
     kdiskmark
-    ventoy-full
     pkg-config
     libpng
     pkgsCross.arm-embedded.stdenv.cc
   ];
+  virtualisation.docker.enable = true;
 }
