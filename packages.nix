@@ -27,7 +27,12 @@
     kdiskmark
     pkg-config
     libpng
+    mesa
+    libGLU
+    steam-run
     pkgsCross.arm-embedded.stdenv.cc
+    libglu1-mesa
   ];
+  nixpkgs.config.allowUnfree = true;
   virtualisation.docker.enable = true;
 }

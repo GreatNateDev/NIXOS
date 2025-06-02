@@ -6,6 +6,10 @@
   #BootLoader
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
+  #Executable
+  programs.nix-ld.enable = true;
+  #Graphics
+  hardware.graphics.enable = true;
   #Networking
   networking.hostName = "Linux";
   networking.networkmanager.enable = true;
